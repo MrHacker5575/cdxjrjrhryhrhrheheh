@@ -226,7 +226,7 @@ async def upstream(client: Client, message: Message):
             repo.__del__()
             return
         await status.edit(
-            "`[HEROKU]: ◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉-Userbot Deploy Update is in Progress...`"
+            "`[HEROKU]: ☆ 𝐂𝐨𝐃𝐞𝐗 ☆-Userbot Deploy Update is in Progress...`"
         )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -243,7 +243,7 @@ async def upstream(client: Client, message: Message):
         except GitCommandError:
             pass
         await status.edit(
-            "`◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉-Userbot Successfully Updated! Userbot can be used again.`"
+            "`☆ 𝐂𝐨𝐃𝐞𝐗 ☆-Userbot Successfully Updated! Userbot can be used again.`"
         )
     else:
         try:
@@ -252,7 +252,7 @@ async def upstream(client: Client, message: Message):
             repo.git.reset("--hard", "FETCH_HEAD")
         await updateme_requirements()
         await status.edit(
-            "`◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉-Userbot Successfully Updated! Userbot can be used again.`",
+            "`☆ 𝐂𝐨𝐃𝐞𝐗 ☆-Userbot Successfully Updated! Userbot can be used again.`",
         )
         args = [sys.executable, "-m", "Zaid"]
         execle(sys.executable, *args, environ)
