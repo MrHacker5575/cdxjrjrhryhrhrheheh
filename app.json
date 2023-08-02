@@ -18,7 +18,7 @@
         "SUDO_USERS": {
             "description": "Fill there /id",
             "required": true,
-            "value": "1234567890 1234567890"
+            "value": ""
         },
         "OWNER_ID": {
             "description": "Fill there your I'd",
