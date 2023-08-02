@@ -11,21 +11,18 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://telegra.ph/file/89f23433043a4bfa255c3.jpg"
+alive_logo = ALIVE_PIC or "https://graph.org/file/48523385d5140ef166d6b.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉**\n\n"
-        f"❏ **νєяѕισи**: `2.1`\n"
-        f"├• **υρтιмє**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
-        f"├• **ρутнσи**: `{python_version()}`\n"
-        f"├• **ρуяσgяαм**: `{__version__}`\n"
-        f"├• **ѕυρρσят**: [Click](t.me/fun_here)\n"
-        f"├• **𝒹єνєℓσρєя**: [Click](t.me/itsz_shivam)\n"
-        f"└• **яєρσ**: [Click](https://GitHub.com/itszshivam/OP-USERBOT2)"        
-    )
+        f"**[☆ 🇨Ⓞ𝗗𝜩🇽 ☆](https://t.me/Heart_Connection)**\n\n"
+        f"➪ **⩔єяនɨ០ɳ:** `2.1`\n"
+        f"➪ **𝗨թƬɨмє:** `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
+        f"➪ **𝗣ƴƬнοи:** `{python_version()}`\n"
+        f"➪ **𝗣ƴяο:** `{__version__}`\n"
+        f"➪ **𝗗єᴠєʟ០թєя:**[☆ 𝐂𝐨𝐃𝐞𝐗 ☆](t.me/Heart_Connection)")
 
 @Client.on_message(
     filters.command(["alive", "awake"], ".") & (filters.me | filters.user(SUDO_USER))
