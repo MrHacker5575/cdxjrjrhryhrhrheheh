@@ -7,10 +7,10 @@ from Zaid import clients, app, ids
 
 async def start_bot():
     await app.start()
-    print("LOG: Founded Bot token Booting ◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉")
+    print("LOG: Founded Bot token Booting ☆ 𝐂𝐨𝐃𝐞𝐗 ☆")
     for all_module in ALL_MODULES:
         importlib.import_module("Zaid.modules" + all_module)
-        print(f"Successfully Imported ◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉ {all_module} 💥")
+        print(f"Successfully Imported ☆ 𝐂𝐨𝐃𝐞𝐗 ☆ {all_module} 💥")
     for cli in clients:
         try:
             await cli.start()
