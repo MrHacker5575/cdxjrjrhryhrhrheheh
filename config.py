@@ -6,19 +6,19 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "20310034")) #optional
+API_HASH = getenv("API_HASH", "e0d2c11f4ba291ce596868e73df87519") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = int(getenv("OWNER_ID"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/89f23433043a4bfa255c3.jpg')
+ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/48523385d5140ef166d6b.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/itszshivam/OP-USERBOT2")
+REPO_URL = getenv("REPO_URL", "https://github.com/MrHacker5575/CoDeX-U-Bot2.5")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
