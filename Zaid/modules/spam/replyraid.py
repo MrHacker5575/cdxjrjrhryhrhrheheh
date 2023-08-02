@@ -78,7 +78,7 @@ async def raid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of ◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉"
+                text = f"Abe Lawde that guy part of ☆ 𝐂𝐨𝐃𝐞𝐗 ☆"
                 await e.reply_text(text)
           else:
               fname = ok.first_name
@@ -105,7 +105,7 @@ async def raid(xspam: Client, e: Message):
                 text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of ◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉."
+                text = f"Abe Lawde that guy part of ☆ 𝐂𝐨𝐃𝐞𝐗 ☆."
                 await e.reply_text(text)
           else:
               fname = ok.first_name
