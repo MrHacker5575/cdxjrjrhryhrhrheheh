@@ -74,9 +74,7 @@ async def pingme(client: Client, message: Message):
     except:
        pass
     await xx.edit("**20% ██▒▒▒▒▒▒▒▒**")
-    await xx.edit("")
     await xx.edit("**50% ██████▒▒▒▒**")
-    await xx.edit("")
     await xx.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
