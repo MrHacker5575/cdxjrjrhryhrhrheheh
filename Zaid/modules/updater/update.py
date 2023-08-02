@@ -319,7 +319,7 @@ async def updatees(client: Client, message: Message):
 add_command_help(
     "update",
     [
-        ["update", "To see a list of the latest updates from ◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉-Userbot."],
+        ["update", "To see a list of the latest updates from ☆ 𝐂𝐨𝐃𝐞𝐗 ☆-Userbot."],
         ["update deploy", "To update userbot."],
     ],
 )
