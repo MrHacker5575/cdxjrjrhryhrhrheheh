@@ -1,28 +1,14 @@
-<img src="https://telegra.ph/file/35840f21ed3e24fedd540.jpg">
 
-<p align="center">◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉ 𝕌𝕊𝔼ℝ𝔹𝕆𝕋 ✨ </p>
+
+<p align="center">◉ ☆ 𝐂𝐨𝐃𝐞𝐗 ☆ </p>
 
 - The First Telegram Userbot Project With Multi Clients Based On PyroGram
 
-<p align="center"><a href="https://t.me/fun_here"><img src="https://telegra.ph/file/89f23433043a4bfa255c3.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/fun_here"><img src="https://graph.org/file/96827e441b7a879a6fe55.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
-
-
-## Requirements 
-
-- PyroGram Session
-- Dummy account
-- Python 3.8+ or 3.7
-- [Mongo Db](https://youtu.be/mnvjt_a5JYA)
-
-## String Session
-
-<p align="center"><a href="https://replit.com/@Itz-zaid/pyrogram"> <img src="https://img.shields.io/badge/String%20Session-black?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
-
-
-## 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓𝐒
+ ⚡𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓𝐒⚡
 
 ᴛᴏ ʙᴇ ꜱᴀꜰᴇ! ꜰɪʀꜱᴛʟʏ ꜰᴏʀᴋ ᴛʜɪꜱ ʀᴇᴘᴏ ᴀɴᴅ ᴛʜᴇɴ ᴘʀᴇꜱꜱ ᴅᴇᴘʟᴏʏ ʙᴜᴛᴛᴏɴ ꜰʀᴏᴍ ᴛʜᴇ ꜰᴏʀᴋᴇᴅ ʀᴇᴘᴏ.😜 
 
