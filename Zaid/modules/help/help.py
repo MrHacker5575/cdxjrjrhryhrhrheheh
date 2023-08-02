@@ -25,7 +25,7 @@ async def module_help(client: Client, message: Message):
     if len(cmd) > 1:
         help_arg = " ".join(cmd[1:])
     elif not message.reply_to_message and len(cmd) == 1:
-        await message.edit("◉ 𝐎𝐕𝐄𝐑 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 ◉")
+        await message.edit("☆ 𝐂𝐨𝐃𝐞𝐗 ☆")
         try:
             nice = await client.get_inline_bot_results(bot=bot_username, query="helper")
             await asyncio.gather(
@@ -44,7 +44,7 @@ async def module_help(client: Client, message: Message):
                 ac.add_row([x[0], x[1] if len(x) >= 2 else None])
             xx = await client.send_message(
                 message.chat.id,
-                f"```{str(ac)}```\n• @ITSZ_SHIVAM •",
+                f"```{str(ac)}```\n• @Heart_Connection •",
                 reply_to_message_id=ReplyCheck(message),
             )
             await xx.reply(
