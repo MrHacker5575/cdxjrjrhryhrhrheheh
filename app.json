@@ -17,8 +17,8 @@
         },
         "SUDO_USERS": {
             "description": "Fill there /id",
-            "required": true,
-            "value": "6068930098"
+            "required": false,
+            "value": ""
         },
         "OWNER_ID": {
             "description": "Fill there your I'd",
