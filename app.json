@@ -3,7 +3,7 @@
     "logo": "https://graph.org/file/fd6932a2f2c9ff0ac02a9.jpg",
     "description": "The first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/MrHacker5575/CoDeX-U-Bot2.5",
+    "repository": "https://github.com/MrHacker5575/cdxjrjrhryhrhrheheh",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
@@ -23,12 +23,12 @@
         "OWNER_ID": {
             "description": "Fill there your I'd",
             "required": true,
-            "value": "1234567890"
+            "value": "5129320633"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "6955382027:AAF5io5CV5M7FWtPaMUP50GRssdAYm1LuYY"
         }
 
     }
